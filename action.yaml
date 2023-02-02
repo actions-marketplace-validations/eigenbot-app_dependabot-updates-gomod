@@ -1,0 +1,8 @@
+name: Dependabot Updates for Go modules.
+description: Generates Dependabot update entries for Go modules.
+runs:
+  using: node16
+  main: dist/main.js
+branding:
+  icon: file-plus
+  color: blue
